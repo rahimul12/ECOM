@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+.Navbar2 {
+    width: 100%;
+    height: 72px;
+    padding-left: 64px;
+    padding-right: 64px;
+    background: white;
+    border-bottom: 1px black solid;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    display: inline-flex;
+}
+
+.Navbar2 .Container {
+    width: 1440px;
+    align-self: stretch;
+    justify-content: center;
+    align-items: center;
+    gap: 32px;
+    display: inline-flex;
+}
+
+.Column1 {
+    flex: 1 1 0;
+
+    justify-content: flex-start;
+    align-items: flex-start;
+    display: flex;
+}
+
+.Logo {
+
+    position: relative;
+}
+
+.Vector {
+    font-weight: 900;
+    font-size: 27px;
+
+}
+
+.ChevronDown {
+    width: 24px;
+    height: 24px;
+    position: relative;
+}
+.ChevronDown i{
+    font-size: 10px;
+}
